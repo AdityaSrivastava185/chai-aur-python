@@ -1,13 +1,40 @@
+# Strings in python 
+'''
+ In Python, a string is a fundamental data structure that represents a sequence of characters
+ A string is a collection of characters arranged in a specific order.It can include letters, digits, symbols, spaces, and even special characters.
+For example, "hello" is a string containing the characters 'h', 'e', 'l', 'l', and 'o'.
+
+Characteristics of Strings:-
+1. Immutable:- Once you create a string, you cannot modify it directly. Strings are immutable data types.
+
+2. Encoding: Internally, Python converts strings into binary (1s and 0s) for the computer to handle. This process, called encoding, uses Unicode.
+
+Strings can be defined using single quotes (' '), double quotes (" "), or triple double quotes (""" """)
+
+For example - 
+name = "Name"
+name2 = 'Name2'
+
+'''
+
 print("Hello World")
 print('Hello World')
+
+# Declaring a value of string data type 
+
 fruit = "Mango fruit"
+
+# Accessing the characters of the string 
 slice_fruit = fruit[0]
 print(slice_fruit)
 slice_fruit = fruit[0:5]
 print(slice_fruit)
 print(slice_fruit[0:5:2])
+# Changing the case of the string into lower case
 print(fruit.lower())
+# Changing the case of the string into lower case
 print(fruit.upper())
+# some of the basic string operations 
 print("Strip String = " , fruit.strip())
 print(fruit.replace("Mango" , "Apple"))
 fruit = "Mango , Apple ,  Guvava , Pineapple"
